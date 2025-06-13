@@ -5,7 +5,7 @@ from rl import update_strategy
 st.set_page_config(page_title="Smart Goal Planner Agent", layout="centered")
 
 st.title("🧠 Smart Goal Planner Agent")
-st.write("Plan your goals with Claude AI and refine with feedback.")
+st.write("Plan your goals with AI and refine with feedback.")
 
 goal = st.text_input("Enter your goal (e.g., Learn Python in 5 days):")
 
