@@ -1,7 +1,7 @@
 
 # 🧠 Smart Goal Planner Agent
 
-![Smart Goal Planner UI](https://drive.google.com/file/d/1wMTpdC0TIC1XIISpGThrpBOukSS-NDu-/view?usp=drive_link)
+![Smart Goal Planner UI](https://drive.google.com/uc?id=1RbukWVk35SrV8EE-fkJi2FYPjRR4dPvM)
 
 ## 📌 Overview
 
