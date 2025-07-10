@@ -22,7 +22,7 @@ if 'subtasks' in st.session_state:
     st.subheader("🗳️ Feedback:")
     for i in range(len(st.session_state['subtasks'])):
         st.session_state['feedback'][i] = st.radio(
-            f"Was Day {i+1} helpful?",
+            f"Was Day {i} helpful?",
             ["Not Reviewed", "Yes", "No"],
             key=f"feedback_{i}",
             index=["Not Reviewed", "Yes", "No"].index(st.session_state['feedback'][i])
