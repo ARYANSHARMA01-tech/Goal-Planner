@@ -17,7 +17,7 @@ if st.button("Generate Plan") and goal:
 if 'subtasks' in st.session_state:
     st.subheader("📅 N-Day Plan:")
     for i, task in enumerate(st.session_state['subtasks']):
-        st.markdown(f"**Day {i+1}:** {task}")
+        st.markdown(f" {i+1}: {task}")
 
     st.subheader("🗳️ Feedback:")
     for i in range(len(st.session_state['subtasks'])):
