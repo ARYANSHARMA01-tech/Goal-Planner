@@ -7,7 +7,7 @@ st.set_page_config(page_title="Smart Goal Planner Agent", layout="centered")
 st.title("🧠 Smart Goal Planner Agent")
 st.write("Plan your goals with AI and refine with feedback.")
 
-goal = st.text_input("Enter your goal (e.g., Learn Python in 5 days):")
+goal = st.text_input("Enter your goal (e.g., Learn Python in 7 days):")
 
 if st.button("Generate Plan") and goal:
     subtasks = generate_plan(goal)
