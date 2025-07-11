@@ -10,7 +10,7 @@ def generate_plan(goal):
     try:
         model = genai.GenerativeModel("gemini-2.0-flash")  # ✅ Correct model name
         prompt = f"""
-        You are a helpful goal planning assistant. Break this goal into a 5-day plan with one detailed and achievable step per day.
+        You are a helpful goal planning assistant. Break this goal into a 7-day plan with one detailed and achievable step per day.
 
         User Goal: "{goal}"
 
